@@ -1,0 +1,67 @@
+/*
+ * Base structure
+ */
+
+html, body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+}
+
+img {
+  padding 20px;
+}
+/* 
+ * NAVBAR
+ */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  display: inline-block;
+}
+/*
+ * CONTENT
+ */
+
+.main {
+  display: inline-block;
+  padding: 30px;
+  margin-top: 30px;
+}
+.main .inner {  
+  vertical-align: middle;
+  padding: 0 20px;
+  
+}
+
+/*
+ * CONTACT STYLING
+ */
+.circle {
+  background-color:black;
+  color: #aaa;
+  border-radius: 50%;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  padding: 30px;
+  padding-top: 40px;
+  margin: 20px;
+}
+
+.img-link {
+  height: 40px;
+  width: 40px;
+}
+
+.links a span {
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  opacity: 1;
+}

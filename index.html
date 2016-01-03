@@ -5,74 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <title>Jihui Jin</title>
 
-    <title>Cover Template for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
+    <link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet">
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
-
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">JIHUI JIN</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
+    <div class="navbar-wrapper">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class = "navbar-header">
+            <a class="navbar-brand" href="#">Jihui Jin</a>
+          </div> <!-- navbar header -->
+          <div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li> 
+            </ul>
           </div>
-
-          <div class="inner cover">
-            <h1 class="cover-heading">Welcome!</h1>
-            <p class="lead">
-              Hi! Welcome to my slice of the web. I'm an <span class="text-primary">Electrical Engineering and Computer Science</span> major at the <span class="text-primary">University of California, Berkeley</span>.
-              
-              When I'm not studying and exploring the EECS spectrum, I like to read, travel and hike. Feel free to send me a book to read or a place to explore!
-            </p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div>
-
         </div>
+      </nav>
+    </div> <!-- navbar wrapper -->
 
+    <div class="container-fluid main">
+      <div class="inner">
+        <h1 class="cover-heading">Hi, I'm Jihui</h1>
+        <img src="images/jihui.jpg" class="img-circle" width="350" height="350">  
+        <p class="lead">
+          Welcome to my slice of the web. I'm an <span class="text-primary">Electrical Engineering and Computer Science</span> major at the <span class="text-primary">University of California, Berkeley</span>.
+              
+          When I'm not studying and exploring the EECS spectrum, I like to read, travel and hike. Feel free to send me a book to read or a place to explore!
+        </p>
       </div>
+    </div> <!-- main -->
 
+    <div class="container-fluid about" id="about">
+      <!--<div class="row content">
+        <div class="col-md-4">
+          <img src="images/jihui.jpg" class="img-circle" width="350" height="350">  
+        </div>
+        <div class="col-md-8">
+          Professional stuff
+        </div>
+      </div>
+      <div class="row content">
+        <div class="col-md-4">
+          Professional stuff
+        </div>
+        <div class="col-md-8">
+          <img src="images/jihui.jpg" class="img-circle" width="350" height="350">  
+        </div>
+      </div>
+      -->
+
+    </div><!-- about -->
+
+    <div class="container-fluid links" id="contacts">
+      <a href="mailto:thejihuijin@gmail.com">
+        <span class="fa-stack">
+          <i class='fa fa-circle fa-stack-2x'></i>
+          <i class='fa fa-envelope fa-stack-1x fa-inverse'></i>
+        </span>
+      </a>
+      <a href='http://github.com/thejihuijin'>
+        <span class="fa-stack">
+          <i class='fa fa-circle fa-stack-2x'></i>
+          <i class='fa fa-github-alt fa-stack-1x fa-inverse'></i>
+        </span>
+      </a>       
+      <a href='#'>
+        <span class="fa-stack">
+          <i class='fa fa-circle fa-stack-2x'></i>
+          <i class='fa fa-spotify fa-stack-1x fa-inverse'></i>
+        </span>
+      </a>       
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
