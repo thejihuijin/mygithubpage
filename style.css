@@ -26,18 +26,26 @@ img {
   display: inline-block;
 }
 /*
- * CONTENT
+ * MAIN
  */
 
 .main {
   display: inline-block;
   padding: 30px;
   margin-top: 30px;
+  max-width: 70%
 }
 .main .inner {  
   vertical-align: middle;
   padding: 0 20px;
   
+}
+
+/*
+ * ABOUT
+ */
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /*
