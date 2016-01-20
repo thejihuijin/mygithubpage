@@ -33,7 +33,7 @@ img {
   display: inline-block;
   padding: 30px;
   margin-top: 30px;
-  max-width: 70%
+  max-width: 70%;
 }
 .main .inner {  
   vertical-align: middle;
@@ -44,8 +44,18 @@ img {
 /*
  * ABOUT
  */
+.about-content h1 {
+  font-weight: 300;  
+  font-size: xx-large;
+}
+
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.about-content {
+  max-width: 70%;
+  margin-left: auto ;
+  margin-right: auto ;
 }
 
 /*
