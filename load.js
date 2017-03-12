@@ -6,7 +6,7 @@ $(document).on({
 });
 
 $(function(){
-  $('.loader').click(function() {
+  $('.load-button').click(function() {
     $body.addClass("loading");
     setTimeout(function(){$body.removeClass("loading");}, 2000);
   });
