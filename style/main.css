@@ -1,67 +1,38 @@
 /*
- * Base structure
- */
-
-html, body {
-  height: 100%;
-  background-color: #333;
-}
-body {
-  color: #fff;
-  text-align: center;
-}
-
-img {
-  padding 20px;
-}
-/* 
- * NAVBAR
- */
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-  display: inline-block;
-}
-/*
  * MAIN
  */
-
-.main {
-  display: inline-block;
-  padding: 30px;
-  margin-top: 30px;
-  max-width: 70%;
-}
-.main .inner {  
-  vertical-align: middle;
-  padding: 0 20px;
-  
+.site-wrapper {
+  background-image: url('../images/stacked-rocks.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-/*
- * ABOUT
- */
-.about-content h1 {
-  font-weight: 300;  
-  font-size: xx-large;
+.inner.cover {
+  border-radius: 2em;
+  padding: 2em;
+  background: rgba(155,155,155,.7);
+  /*opacity: 0.75;
+  filter: alpha(opacity=75);*/
+}
+.cover-heading.name { 
+  margin-bottom: .7rem;
 }
 
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-.about-content {
-  max-width: 70%;
-  margin-left: auto ;
-  margin-right: auto ;
+.text-green {
+  color: rgb(0, 230, 77);
 }
 
-/*
- * CONTACT STYLING
- */
-.circle {
+a.contact:hover {
+  text-decoration: none;
+}
+
+.fa-stack {
+  font-size 0.35s ease;
+}
+.fa-stack:hover{
+  font-size:2em;
+}
+/*.circle {
   background-color:black;
   color: #aaa;
   border-radius: 50%;
@@ -82,4 +53,4 @@ img {
   transition: all 200ms ease-in;
   transform: scale(1);
   opacity: 1;
-}
+}*/
