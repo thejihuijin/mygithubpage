@@ -7,12 +7,14 @@
   background-repeat: no-repeat;
 }
 
-.inner.cover {
-  border-radius: 2em;
+.text-box {
   padding: 2em;
   background: rgba(155,155,155,.7);
   /*opacity: 0.75;
   filter: alpha(opacity=75);*/
+}
+.curve-box {
+  border-radius: 2em;
 }
 .cover-heading.name { 
   margin-bottom: .7rem;
@@ -32,25 +34,18 @@ a.contact:hover {
 .fa-stack:hover{
   font-size:2em;
 }
-/*.circle {
-  background-color:black;
-  color: #aaa;
-  border-radius: 50%;
-  display: inline-block;
-  height: 250px;
-  width: 250px;
-  padding: 30px;
-  padding-top: 40px;
-  margin: 20px;
+
+
+/*
+ * ABOUT
+ */
+.content {
+  padding-bottom: 5rem;
+}
+@media (min-width: 40em) {
+  /* remove padding of content */
+  .content{
+    padding-top:5rem;
+  }
 }
 
-.img-link {
-  height: 40px;
-  width: 40px;
-}
-
-.links a span {
-  transition: all 200ms ease-in;
-  transform: scale(1);
-  opacity: 1;
-}*/
