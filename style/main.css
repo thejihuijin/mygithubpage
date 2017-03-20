@@ -2,26 +2,32 @@
  * MAIN
  */
 .site-wrapper {
-  background-image: url('../images/stacked-rocks.JPG');
+  background-image: url('../images/dark_wood.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.inner.cover img {
+  width: 200px;
+  border-radius:100%;
+  margin-bottom: 2rem;
+}
+
 .text-box {
   padding: 2em;
-  background: rgba(155,155,155,.7);
+  /*background: rgba(200,200,200,.7);*/
   /*opacity: 0.75;
   filter: alpha(opacity=75);*/
 }
 .curve-box {
-  border-radius: 2em;
+  border-radius: .25rem;
 }
 .cover-heading.name { 
   margin-bottom: .7rem;
 }
 
 .text-green {
-  color: rgb(0, 230, 77);
+  color: rgb(0, 140, 47);
 }
 
 a.contact:hover {
